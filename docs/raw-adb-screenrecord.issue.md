@@ -1,0 +1,5 @@
+# Phase-02 (using raw adb commands for streaming video from android device to client)
+
+- using repeated screenshot approach is not efficient and is choppy.
+- using pipe improves the performance a little but is not sufficient for live view
+

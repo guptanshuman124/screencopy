@@ -25,7 +25,7 @@ Android Debugging Bridge(ADB) is a versatile,cross platform command-line tool th
 ![Emulator](images/emulator.png)
 ![Emulator-Arch](images/emulator-arch.png)
 
-`public door (adb port)(HardWare Part)` and `maintenance panel (console port)(SoftWare Part)`
+`public door (adb port)(SoftWare Part)` and `maintenance panel (console port)(HardWare Part)`
 - The console port (even number, e.g. 5554) is a raw telnet interface. You connect to it with telnet localhost 5554 and type commands that simulate real-world hardware events.
 - The adb port (odd number, e.g. 5555) is where adbd runs inside the emulator — exactly like on a real phone.
 
